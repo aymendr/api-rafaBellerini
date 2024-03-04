@@ -12,7 +12,9 @@ const receitasCafes = [
     {"nome": "Cafe com Leite", "ingredientes": ["leite vaporizado", "cafe coado ou expresso"], "instrucoes": "Misture partes iguais de cafe coado ou expresso com leite vaporizado."},
     {"nome": "Affogato", "ingredientes": ["cafe expresso", "sorvete de creme ou baunilha"], "instrucoes": "Despeje cafe expresso quente sobre uma bola de sorvete de creme ou baunilha."},
     {"nome": "Flat White", "ingredientes": ["leite vaporizado", "cafe expresso"], "instrucoes": "Prepare um expresso e adicione leite vaporizado, visando uma proporcao maior de cafe na mistura."},
-    {"nome": "Iced Coffee", "ingredientes": ["cafe coado ou expresso", "gelo", "leite ou creme (opcional)", "adocante (opcional)"], "instrucoes": "Esfrie o cafe coado ou expresso e sirva sobre gelo. Adicione leite, creme ou adocante a gosto."}
+    {"nome": "Iced Coffee", "ingredientes": ["cafe coado ou expresso", "gelo", "leite ou creme (opcional)", "adocante (opcional)"], "instrucoes": "Esfrie o cafe coado ou expresso e sirva sobre gelo. Adicione leite, creme ou adocante a gosto."},
+    {"nome": "Expresso", "ingredientes21": ["agua", "po de cafe"], "instrucoes": "Use maquina de cafe expresso."},
+
 ];
 
 app.get('/receitas', (req, res) => {
